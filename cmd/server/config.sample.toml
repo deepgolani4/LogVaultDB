@@ -1,0 +1,7 @@
+[server]
+address = ":6379"
+
+[app]
+debug = false # Enable debug logging
+dir = "./data" # Directory to store .db files
+read_only = false # Whether to run barreldb in a read only mode. Write operations are not allowed in this mode.
